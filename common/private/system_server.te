@@ -18,3 +18,6 @@ set_prop(system_server, xtra_control_prop)
 
 # Let system server find fake-D2D backup property
 get_prop(system_server, backup_d2d_prop)
+
+# Global cleartext feature
+allow system_server system_exported_cleartext_prop:property_service set;

@@ -2,3 +2,4 @@
 system_internal_prop(recovery_update_prop)
 
 system_internal_prop(backup_d2d_prop);
+system_restricted_prop(system_exported_cleartext_prop);

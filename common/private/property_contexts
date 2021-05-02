@@ -24,3 +24,6 @@ persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact boo
 
 # System-scheduled backups act as migrations (device-to-device transfers)
 persist.backup.fake-d2d                u:object_r:backup_d2d_prop:s0 exact bool
+
+# Global cleartext feature
+persist.sys.global.cleartext           u:object_r:system_exported_cleartext_prop:s0 exact int
