@@ -6,3 +6,6 @@ lineagetrust                              u:object_r:lineage_trust_service:s0
 profile                                   u:object_r:lineage_profile_service:s0
 
 adbroot_service                           u:object_r:adbroot_service:s0
+
+# Linearmotor Vibrator
+linearmotor                               u:object_r:linearmotor_vibrator_service:s0
